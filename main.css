@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 5%;
+  color: #c3040b;
+  background-image: url("https://img.freepik.com/premium-vector/christmas-characters-seamless-pattern-santa-claus-helpers-deer-snowman-elf-arctic-bear-winter-childish-xmas-holidays-design-wallpaper-textile-wrapping-paper-vector-texture_176411-1981.jpg");
+}
+
+h1 {
+  font-family: "Mountains of Christmas", serif;
+}
+
+.container {
+  width: 400px;
+  min-height: 300px;
+  margin: 0 auto;
+  border: 2px solid #c3040b;
+  border-radius: 20px;
+  background-color: #f7f7f7;
+  overflow: auto;
+}
+
+label {
+  margin-top: 20px;
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  color: #235c6c;
+}
+
+input {
+  width: 80%;
+  height: 8%;
+  padding: 8px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 20px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #c3040b;
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #e3050d;
+}
+
+#result {
+  margin-top: 20px;
+  color: #235c6c;
+  font-weight: bold;
+}
+
+.pair {
+  font-size: 18px;
+}
